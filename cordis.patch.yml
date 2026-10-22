@@ -1,0 +1,6 @@
+# dsh-session-color —— DSH bundle patch(挂载声明)
+# 安装:pnpm add file:<本目录绝对路径>(或 dsh plugin --profile desktop add file:<路径>),
+# 并把 "dsh-session-color" 加进 profile package.json 的 dsh.profile.bundles。
+- insert:
+    - id: session-color
+      name: dsh-session-color

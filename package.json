@@ -1,6 +1,6 @@
 {
   "name": "dsh-session-color",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "DeepSeek Harness 侧栏会话右键标色:默认红色、十色色板、自定义取色,颜色本地持久化。 / Right-click any session row in DSH's sidebar to color-tag it (red by default, palette + custom picker), persisted locally.",
   "keywords": [
     "dsh",
@@ -32,7 +32,10 @@
     "type": "git",
     "url": "git+https://github.com/yangzhenyu0817/dsh-session-color.git"
   },
-  "homepage": "https://www.npmjs.com/package/dsh-session-color",
+  "homepage": "https://github.com/yangzhenyu0817/dsh-session-color",
+  "bugs": {
+    "url": "https://github.com/yangzhenyu0817/dsh-session-color/issues"
+  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"

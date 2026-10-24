@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.1 — 2026-10-24
+
+- `package.json` 增加 `repository` / `homepage` / `bugs`:插件市场据此把仓库与 npm 包对上,
+  安装命令由 `github:yangzhenyu0817/dsh-session-color` 换成更快的 `dsh plugin add dsh-session-color`。
+- 无代码改动,功能与 0.1.0 完全一致。
+
 ## 0.1.0 — 2026-10-22
 
 首个版本。
